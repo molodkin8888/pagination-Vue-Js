@@ -1,0 +1,180 @@
+* {
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #e1e8b9;
+	display: flex;
+	justify-content: center;
+	padding: 100px 0 60px;
+}
+
+#applicationPagination{
+	width: 100%;
+}
+/*
+#applicationPagination span {
+	float: right;
+	margin-right: 45px;
+}*/
+
+.section{
+	width: 100%;
+	max-width: 1280px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin: 0 auto;
+}
+
+.picture_unit{
+	width: 30%;
+	flex-grow: 1;
+	flex-shrink: 1;
+	margin: 0 20px 20px;
+}
+
+.pict{
+	background-color: #e9eae1;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.picture{
+	width: 100%;
+	height: 200px;
+}
+
+.picture img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover; 
+}
+
+
+.picture_footer{
+	width: 100%;
+	padding: 10px 10px; 
+}
+
+.photo_people{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	margin-right: 15px;
+	float: left;
+}
+
+.people_info{
+	width: 100%;
+	height: 25px;
+	line-height: 25px;
+}
+
+.people_info a{
+	font-family: Helvetica, sans-serif;
+	font-size: 11px;
+	color: #4f4e4e;
+}
+
+.people_info i {
+        width: auto;
+        height: 25px;
+        background: #8be57e;
+        color: #000;
+        border-radius: 25px;
+        line-height: 25px;
+        font-size: 1.4rem;
+       	float: right;
+       	margin-left: 25px;
+        box-shadow: 0 0 4px 2px rgba(80, 80, 80, 0.1);
+        cursor: pointer;
+        }
+}
+
+.people_info #like{
+	float: right;
+	margin-right: 30px;
+}
+
+.people_info #like p{
+	float: right;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+
+.pagination{
+	width: 100%;
+	height: 40px;
+	display: flex;
+	justify-content: space-around;
+	margin: 20px auto 20px;
+	padding: 0 20px;
+	max-width: 1280px;
+}
+
+.pagin-left{ 
+	width: 10%;
+}
+
+.pagin-right{
+	width: 10%;
+}
+
+.pagin-left{
+	float: left;
+}
+
+.pagin-left a{
+	float: left;
+}
+
+.pagin-right{
+	float: right;
+}
+
+.pagin-right a{
+	float: right;
+}
+
+.pagination a, .pagination span{
+	display: block;
+	font-family: Helvetica, sans-serif;
+	font-weight: 300;
+	text-align: center;
+	line-height: 40px;
+	height: 40px;
+	color: #6b6666;
+	font-size: 16px;
+}
+
+.pagination a{
+	padding: 0 15px;
+	background-color: #c9d2ef;
+	border: 1px solid #c9d2ef;
+	border-radius: 18px;
+	text-decoration: none;
+	margin: 0 5px;
+}
+
+.pagination a.current{
+	border-color: #377acc;
+	color: #377acc;
+}
+
+.pagin-middle{
+	display: flex;
+	justify-content: center;
+	width: 80%;
+}
+
+.pagin-middle ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.pagin-middle li{
+	display: inline-block;
+}
