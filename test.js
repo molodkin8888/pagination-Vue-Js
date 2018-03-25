@@ -1,4 +1,4 @@
-var applicationId = '7bf09fcf87bfb4527df952241bbdd749adae427b9dfd95f5d1d70ea6d9adfae9'
+var applicationId = '';
 
 new Vue({
 	el:'#applicationPagination',
